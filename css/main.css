@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #c9b5ab;
+    font-family: 'PT Serif', serif;
+}
+
+.main-title {
+    font-size: 1.5rem;
+    color: #3f1622;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.ol-list-item {
+    list-style-type: none;
+}
+
+.ol-list-item > a {
+    color: #8f2440;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;  
+}
+
+img {
+    width: 100%;
+}
+
+.h2-title {
+    color: #3f1622;
+    font-family: 'PT Sans', sans-serif;
+}
+.h2-title + p {
+    font-style: italic;
+}
+
+figure + p {
+    color: #222;
+    font-weight: bold;
+}
+
+figure > figcaption {
+    text-align: center;
+}
+
+blockquote  {
+    font-style: italic;
+    font-size: 1.125rem;
+}
+
+blockquote > footer {
+    font-size: 0.8rem;
+}
+
+.section-ul-item {
+    list-style-type: lower-greek;
+}
+
+#nutritional-information dt {
+    font-weight: bold;
+}
+
+.aside-li-item {
+    list-style-type: circle;
+    font-size: 0.8rem;
+}
+
